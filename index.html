@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Suckow: Frontend Developer</title>
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header er class="header">
+        <a href="#" tabindex="-1" class="logo">Portfolio - André Suckow</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a tabindex="0" href="#home" class="active focus-border">Home</a>
+            <a tabindex="0" href="#about" class="focus-border">About</a>
+            <a tabindex="0" href="#portfolio" class="focus-border">Portfolio</a>
+            <a tabindex="0" href="#services" class="focus-border">Services</a>
+            <a tabindex="0" href="#contact" class="focus-border">Contact</a>
+        </nav>
+    </header>
+
+    <div class="social-media-menu invisible" id="menuMedia">
+        <a href="https://www.instagram.com/andresuckow27/" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-instagram-alt"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/andresuckow/" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="http://web.whatsapp.com/send?phone=5541999201894" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-whatsapp"></i>
+        </a>
+    </div>
+
+    <div class="footer-iconTop invisible" id="arrowUp">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>André Suckow</h1>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p> I'm the link between technology and creativity, crafting breathtaking and user-friendly interfaces that
+                captivate viewers with every pixel they behold.</p>
+            
+            <div class="social-media">
+                <a href="https://www.instagram.com/andresuckow27/" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/andresuckow/" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="http://web.whatsapp.com/send?phone=5541999201894" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-whatsapp"></i>
+            </div>
+
+            <a href="https://docs.google.com/document/d/1sAQtFh_oDINY_Ebh4Bmk-gtN5uOhaibx/edit?usp=share_link&ouid=115913082939909793373&rtpof=true&sd=true"
+                target="_blank" rel="noopener noreferrer" class="btn">Download CV
+            </a>
+        </div>
+
+        <div class="home-img">
+            <img class="me" src="images/./me.jpg" alt="imagem">
+        </div>
+
+        <!-- wrapper A -->
+        <div class="custom-shape-divider-bottom-1681764903">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- about section design  -->
+    <section class="about" id="about">
+
+        <!-- video-player -->
+        <div class="about-video">
+            <video src="./video/narutoVideo.mp4" controls></video>
+
+            <!-- controls video player 
+            <nav class="controls-player">
+                <button class="button play">
+                    <i class="fas-fa-play"></i>
+                </button>
+            </nav> -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I love always learning and experimenting with new technologies, which allows me to create projects that
+                are unique and meet the needs of users. If you're looking for a front-end developer committed to
+                delivering exceptional results, I'm ready to help you achieve your goals.</p>
+        </div>
+
+        <!-- wrapper B -->
+        <div class="custom-shape-divider-bottom-1681819813">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- portfolio section design  -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <!-- 1: work A  -->
+            <div class="portfolio-box">
+                <img src="./images/calculator.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2: work B  -->
+            <div class="portfolio-box">
+                <img src="./images/Perfil.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>B</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3: Work C  -->
+            <div class="portfolio-box">
+                <img src="./images/Perfil.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>C</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4: Work D  -->
+            <div class="portfolio-box">
+                <img src="./images/Perfil.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>D</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5: Work E  -->
+            <div class="portfolio-box">
+                <img src="./images/Perfil.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>E</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6: Work F -->
+            <div class="portfolio-box">
+                <img src="./images/Perfil.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>f</h4>
+                    <p>This is a project of a simple calculator developed with the objective of improving my knowledge.</p>
+                    <div class="flex-icons">
+                        <a href="https://andresuckow.github.io/calculator/"target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        <a href="https://github.com/AndreSuckow/calculator"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- wrapper B -->
+        <div class="custom-shape-divider-bottom-1681819813">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+     <!-- services section design  -->
+     <section class="services" id="services">
+        <h2 class="heading">My <span class="multiple-text2"></span></h2>
+        <div class="roadmap">
+            <a href="https://roadmap.sh/frontend?r=frontend-beginner" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-sharp fa-solid fa-circle-info">
+                </i><p>More information about my roadmap study.</p>
+            </a>
+        </div>
+
+
+        <div class="services-container">
+
+            <!-- HTML5/CSS3  -->
+            <div class="services-box">
+                <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h3>html5</h3>
+                <div class="texts">
+                    
+                </div>
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <div class="icons">
+                    <i class="fa-brands fa-css3"></i>
+                </div>
+                <h3>css3</h3>
+                <div class="texts">
+                    
+                </div>
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+
+            <!-- Javascript -->
+            <div class="services-box">
+                <div class="icons">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <h3>JavaScript</h3>
+               
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <!-- React -->
+            <div class="services-box">
+                <div class="icons">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+
+                <h3>React</h3>
+                
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <!-- GITHUB -->
+            <div class="services-box">
+                <div class="icons">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+
+                <h3>GITHUB</h3>
+                
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+             <div class="services-box">
+                <div class="icons">
+                    <img src="./images/jquery.png" alt="">
+                </div>
+
+                <h3>Jquery</h3>
+                
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+        </div>
+        <!-- wrapper A -->
+        <div class="custom-shape-divider-bottom-1681764903">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formspree.io/f/mlekadgg" method="POST" autocomplete="off">
+            <div class="input-box">
+                <label for="name">Complete Name:</label>
+                <input id="name" name="full_name" type="text" placeholder="Full Name" tabindex="0" required>
+                <label for="email">E-mail:</label>
+                <input id="email" name="email_address" type="email" placeholder="Email adress" tabindex="0" required>
+            </div>
+            <div class="input-box">
+                <label for="number">Phone Number:</label>
+                <input id="number" name="mobile_number" type="number" placeholder="Mobile Number" tabindex="0" required>
+                <label for="email_sub">E-mail Subject:</label>
+                <input id="email_sub" name="email_subject" type="text" placeholder="Email Subject" tabindex="0"
+                    required>
+            </div>
+            <label for="message">Write here your message to me:</label>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" tabindex="0"
+                required></textarea>
+            <input type="submit" value="Send Message" class="btn" tabindex="6">
+        </form>
+    </section>
+
+    <!-- footer design  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &amp; 2023 by André Suckow | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <!-- scripts! -->
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- main script -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
