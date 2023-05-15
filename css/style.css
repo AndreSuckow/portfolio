@@ -622,7 +622,7 @@ span {
     padding: 0.8rem;
     color: var(--main-color);
     border-radius: 10px;
-    border: solid;
+    border: 0.2rem solid;
     transition: .5s ease;
     cursor: url(../images/pointerWhite.png), pointer;
     box-shadow: 0 0 1rem var(--second-bg-color);
